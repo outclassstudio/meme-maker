@@ -4,13 +4,6 @@ canvas {
   border: 3px solid black;
 }
 
-div {
-  margin-top: 30px;
-  margin-bottom: 15px;
-  font-size: 30px;
-  font-weight: bold;
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -18,4 +11,10 @@ body {
   align-items: center;
   margin: 0px;
   box-sizing: border-box;
+}
+
+.title {
+  margin: 15px 0px;
+  font-size: 30px;
+  font-weight: bold;
 }
