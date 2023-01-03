@@ -8,16 +8,18 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div class="title">🎨canvas에 그림 그리기 뉸뉴</div>
+  <!-- <div class="title">🎨canvas에 그림 그리기 뉸뉴</div> -->
   <div id="line-width-wrapper" style="display: flex; gap: 5px;">
     <div>펜두께</div>
-    <input id="line-width" type="range" value=5 min=1 max=20 style="margin-bottom: 15px;"/>
+    <input id="line-width" type="range" value=5 min=1 max=20 style="margin-bottom: 10px;"/>
     <div id="line-width-value" style="width: 10px;"></div>
   </div>
   <div id="color-set-wrapper" style="display: flex; gap: 5px;">
     <div>펜색상</div>
-    <input id="color-set" type="color" value="#000000" style="margin-bottom:15px;"/>
+    <input id="color-set" type="color" value="#000000" style="margin-bottom:5px;"/>
     <div id="color-value" style="width: 10px;"></div>
+  </div>
+  <div id="color-palette">
   </div>
   <canvas></canvas>
   <script src="app.js"></script>
