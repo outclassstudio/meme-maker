@@ -9,19 +9,25 @@
 </head>
 <body>
   <!-- <div class="title">🎨canvas에 그림 그리기 뉸뉴</div> -->
-  <div id="line-width-wrapper" style="display: flex; gap: 5px;">
-    <div>펜두께</div>
-    <input id="line-width" type="range" value=5 min=1 max=20 style="margin-bottom: 10px;"/>
-    <div id="line-width-value" style="width: 10px;"></div>
+  <div>
+    <button id="clear-btn">클리어</button>
+    <button id="erase-btn">지우개</button>
   </div>
-  <div id="color-set-wrapper" style="display: flex; gap: 5px;">
+  <div id="color-set-wrapper">
+    <button id="mode-btn">펜</button>
     <div>펜색상</div>
     <input id="color-set" type="color" value="#000000" style="margin-bottom:5px;"/>
-    <div id="color-value" style="width: 10px;"></div>
+    <div id="color-value" style="width: 65px;"></div>
+    <div id="line-width-wrapper" style="display: flex; gap: 5px;">
+      <div>펜두께</div>
+      <input id="line-width" type="range" value=5 min=1 max=20"/>
+      <div id="line-width-value" style="width: 10px;"></div>
+    </div>
   </div>
   <div id="color-palette">
   </div>
   <canvas></canvas>
+  <!-- <script src="person_home.js"></script> -->
   <script src="app.js"></script>
 </body>
 </html>
