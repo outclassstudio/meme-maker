@@ -2,7 +2,6 @@
   "name": "meme_maker",
   "version": "1.0.0",
   "description": "my painting board",
-  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +10,7 @@
     "url": "git+https://github.com/outclassstudio/meme-maker.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "outclass studio",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/outclassstudio/meme-maker/issues"

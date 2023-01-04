@@ -19,6 +19,14 @@ body {
   font-weight: bold;
 }
 
+#color-set-wrapper {
+  display: flex; 
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
 #color-palette {
   justify-content: center;
   align-items: center;
@@ -31,4 +39,8 @@ body {
 .palette-children {
   width: 30px;
   height: 30px;
+}
+
+#mode-btn {
+  width: 70px;
 }
